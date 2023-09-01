@@ -25,7 +25,7 @@ public class AccountController {
 	@ApiOperation(value = "指定ID获取账号")
 	@GetMapping("/{id}/fetch")
 	public DiscordAccount fetch(@ApiParam(value = "账号ID") @PathVariable String id) {
-		return null
+		return null;
 		// DiscordInstance instance = this.loadBalancer.getDiscordInstance(id);
 		// return instance == null ? null : instance.account();
 	}
