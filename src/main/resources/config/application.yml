@@ -9,12 +9,12 @@ logging:
 knife4j:
   enable: true
   openapi:
-    title: Midjourney Proxy API文档
-    description: 代理 MidJourney 的discord频道，实现api形式调用AI绘图
-    concat: novicezk
-    url: https://github.com/novicezk/midjourney-proxy
+    title: starxmate.com mj api 
+    description: starxmate.com mj api
+    concat: starxmate.com
+    url: starxmate.com
     version: v2.5
-    terms-of-service-url: https://github.com/novicezk/midjourney-proxy
+    terms-of-service-url: starxmate.com
     group:
       api:
         group-name: API
