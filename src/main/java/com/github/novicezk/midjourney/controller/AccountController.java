@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.ArrayList;
 
 @Api(tags = "账号查询")
 @RestController
@@ -32,7 +33,7 @@ public class AccountController {
 	@ApiOperation(value = "查询所有账号")
 	@GetMapping("/list")
 	public List<DiscordAccount> list() {
-		return null
+		return new ArrayList<>();
 		// return this.loadBalancer.getAllInstances().stream().map(DiscordInstance::account).toList();
 	}
 }
