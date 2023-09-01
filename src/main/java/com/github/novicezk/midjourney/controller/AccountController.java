@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-//@Api(tags = "账号查询")
+@Api(tags = "账号查询")
 @RestController
 @RequestMapping("/account")
 @RequiredArgsConstructor
 public class AccountController {
 	private final DiscordLoadBalancer loadBalancer;
 
-	//@ApiOperation(value = "指定ID获取账号")
+	@ApiOperation(value = "指定ID获取账号")
 	@GetMapping("/{id}/fetch")
 	public DiscordAccount fetch(@ApiParam(value = "账号ID") @PathVariable String id) {
 		return null
@@ -29,7 +29,7 @@ public class AccountController {
 		// return instance == null ? null : instance.account();
 	}
 
-	//@ApiOperation(value = "查询所有账号")
+	@ApiOperation(value = "查询所有账号")
 	@GetMapping("/list")
 	public List<DiscordAccount> list() {
 		return null
