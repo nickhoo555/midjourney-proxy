@@ -13,7 +13,7 @@ knife4j:
     description: starxmate.com mj api
     concat: starxmate.com
     url: starxmate.com
-    version: v2.5
+    version: v2.5.4
     terms-of-service-url: starxmate.com
     group:
       api:
